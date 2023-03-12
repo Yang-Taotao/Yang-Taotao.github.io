@@ -4,8 +4,14 @@ date: 2023-03-12T17:05:55Z
 draft: true
 ---
 
-## Introduction
+## Introduction to sample posts
 
-This is **bold** text, and this is *emphasized* text.
+This is a **bold** text, and this is an *emphasized* text.
 
-Visit the [Hugo](https://gohugo.io) website!
+These text act as a reference for posts.
+
+# Secondary title
+
+A list:
+1. item 1
+2. item 2
