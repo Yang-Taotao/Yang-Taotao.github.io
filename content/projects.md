@@ -12,4 +12,4 @@ A collection of my recent projects:
 - wip
 
 **2022:**
-- [Long way to Mars: An Evaluation on Mars Colonisation in the Next 50 Years](/projects/GLA_AWSP_Essay.pdf)
+- wip
