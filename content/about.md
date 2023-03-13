@@ -1,22 +1,30 @@
 ---
 title: "About @Yang-Taotao"
 date: 2023-March-12
+Editted: 2023-March-13
 draft: false
 ---
-I am a graduate student of **MSc in Astrophysics** at **University of Glasgow**. 
-
 Currently exploring interests in using machine learning to understand the space of gravitational wave signals from binary black holes and binary neutron stars mergers.
 
-**Keywords:** *Astrophysics*, *Gravitational Waves* 
+### Education:
 
-**Things I enjoy:**
-1. Wandering about
-2. Day hikes
-3. Travelling
-4. Aviation
-5. Simulations
-6. A good pint in the pub
-7. Hardcore science fiction
-8. Writing
-9. Photography
-10. Make plans
+*2022-2023* | **MSc in Astrophysics** | **University of Glasgow** | *Glasgow, Scotland*
+
+*2017-2021* | **BSc in Physics** | **Georgia Institute of Technology** | *Atlanta, Georgia*
+
+***Keywords:*** *Astrophysics*, *Gravitational Waves*, *Cosmology* 
+
+### Languages and Skills:
+
+Chinese (ZH-CN) | English (EN-US) | Python (NumPy, SciPy) | LaTeX | Mathematica
+
+Data Analysis | Anaconda | Darktable | Lightroom | Blender | GIMP | Solidworks
+
+
+### What I enjoy:
+
+Wandering about | Day hikes | Travelling | Aviation | Simulations
+
+A good pint in the pub | Hardcore science fiction | Photography 
+
+Making plans | Writing | Cinema | Pink Floyd | Arctics | Irn Bru
