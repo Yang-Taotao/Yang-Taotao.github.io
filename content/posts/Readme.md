@@ -1,21 +1,9 @@
 ---
 title: "Readme"
 date: 2023-03-12
-Editted: 2023-03-13
+Editted: 2023-11-29
 draft: true
 ---
 ## NOTICE
 
-Placeholder for future contents...
-
-## Introduction to sample posts
-
-This is a **bold** text, and this is an *emphasized* text.
-
-These text act as a reference for posts.
-
-# Secondary title
-
-A list:
-1. item 1
-2. item 2
+This is a placeholder post for the *Blog* section of my personal page. I hope to add to this page some of the good-to-know things that I have picked up along my way. Currently, I am working on my PhD applications. :)
