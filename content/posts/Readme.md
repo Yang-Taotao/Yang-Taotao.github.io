@@ -4,6 +4,9 @@ date: 2023-03-12
 Editted: 2023-03-13
 draft: true
 ---
+## NOTICE
+
+Placeholder for future contents...
 
 ## Introduction to sample posts
 

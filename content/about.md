@@ -1,30 +1,29 @@
 ---
 title: "About @Yang-Taotao"
-date: 2023-March-12
-Editted: 2023-March-13
+date: 2023-03-12
+Editted: 2023-11-29
 draft: false
 ---
-Currently exploring interests in using machine learning to understand the space of gravitational wave signals from binary black holes and binary neutron stars mergers.
+Exploring interests in using machine learning methods to learn and approximate the template bank densities for gravitational wave analysis.
 
-### Education:
+### Education
 
 *2022-2023* | **MSc in Astrophysics** | **University of Glasgow** | *Glasgow, Scotland*
 
 *2017-2021* | **BSc in Physics** | **Georgia Institute of Technology** | *Atlanta, Georgia*
 
-***Keywords:*** *Astrophysics*, *Gravitational Waves*, *Cosmology* 
+***Keywords:*** *Gravitational Waves*, *Computational Astrophysics*, *Astrophysics*
 
-### Languages and Skills:
+### Languages and Skills
 
-Chinese (ZH-CN) | English (EN-US) | Python (NumPy, SciPy) | LaTeX | Mathematica
+Chinese (Bilingual) | English (Bilingual) | Python (numpy, scipy, jax, matplotlib) | Linux (Ubuntu)
 
-Data Analysis | Anaconda | Darktable | Lightroom | Blender | GIMP | Solidworks
+GitHub | LaTeX | Mathematica | Jupyter
 
+Data Analysis | Scientific Computation | Scientific Writing
 
-### What I enjoy:
+Darktable | Lightroom | Blender | GIMP | Solidworks
 
-Wandering about | Day hikes | Travelling | Aviation | Simulations
+### Hobbies and Interests
 
-A good pint in the pub | Hardcore science fiction | Photography 
-
-Making plans | Writing | Cinema | Pink Floyd | Arctics | Irn Bru
+Aviation | Simulations | Landscape Photography | Cooking | Science Fiction | Hiking | Drama | Cheese

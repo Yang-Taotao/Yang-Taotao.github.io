@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yang, Taotao</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Yang, Taotao</description>
+    <title>Yang-Taotao</title>
+    <link>https://yang-taotao.github.io/</link>
+    <description>Recent content on Yang-Taotao</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://yang-taotao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About @Yang-Taotao</title>
+      <link>https://yang-taotao.github.io/about/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang-taotao.github.io/about/</guid>
+      <description>Exploring interests in using machine learning methods to learn and approximate the template bank densities for gravitational wave analysis.
+EducationLink to heading2022-2023 | MSc in Astrophysics | University of Glasgow | Glasgow, Scotland
+2017-2021 | BSc in Physics | Georgia Institute of Technology | Atlanta, Georgia
+Keywords: Gravitational Waves, Computational Astrophysics, Astrophysics
+Languages and SkillsLink to headingChinese (Bilingual) | English (Bilingual) | Python (numpy, scipy, jax, matplotlib) | Linux (Ubuntu)</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://yang-taotao.github.io/contact/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang-taotao.github.io/contact/</guid>
+      <description>University Email: 2765732y@student.gla.ac.ukPersonal Email: yangtaotao0524@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://yang-taotao.github.io/projects/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang-taotao.github.io/projects/</guid>
+      <description>A collection of my recent projects:
+2023:
+MSc Project | Gravitational Wave Template Bank Placement with Normalizing Flows | PDFTSA Project | Solar Microwave Data Analysis | PDF</description>
+    </item>
+    
   </channel>
 </rss>

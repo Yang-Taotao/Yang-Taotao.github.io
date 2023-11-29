@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yang-Taotao</title>
+    <link>https://yang-taotao.github.io/zh-cn/</link>
+    <description>Recent content on Yang-Taotao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://yang-taotao.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About @Yang-Taotao</title>
+      <link>https://yang-taotao.github.io/zh-cn/about/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang-taotao.github.io/zh-cn/about/</guid>
+      <description>目前暂未添加中文内容相应信息，望包涵！
+Exploring interests in using machine learning methods to learn and approximate the template bank densities for gravitational wave analysis.
+Education链接到标题2022-2023 | MSc in Astrophysics | University of Glasgow | Glasgow, Scotland
+2017-2021 | BSc in Physics | Georgia Institute of Technology | Atlanta, Georgia
+Keywords: Gravitational Waves, Computational Astrophysics, Astrophysics
+Languages and Skills链接到标题Chinese (Bilingual) | English (Bilingual) | Python (numpy, scipy, jax, matplotlib) | Linux (Ubuntu)</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://yang-taotao.github.io/zh-cn/contact/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang-taotao.github.io/zh-cn/contact/</guid>
+      <description>目前暂未添加中文内容相应信息，望包涵！
+University Email: 2765732y@student.gla.ac.ukPersonal Email: yangtaotao0524@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://yang-taotao.github.io/zh-cn/projects/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yang-taotao.github.io/zh-cn/projects/</guid>
+      <description>目前暂未添加中文内容相应信息，望包涵！
+A collection of my recent projects:
+2023:
+MSc Project | Gravitational Wave Template Bank Placement with Normalizing Flows | PDFTSA Project | Solar Microwave Data Analysis | PDF</description>
+    </item>
+    
+  </channel>
+</rss>
