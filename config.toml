@@ -1,5 +1,5 @@
 baseURL = "https://yang-taotao.github.io/"
-title = "Yang-Taotao"
+title = "Taotao Yang"
 languageCode = "en-us"
 theme = 'hugo-coder'
 defaultContentLanguage = "en"
@@ -12,11 +12,11 @@ enableEmoji = true
 style = "github-dark"
 
 [params]
-author = "Yang Taotao"
+author = "Taotao Yang"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Yang-Taotao's personal website"
+description = "Taotao Yang's personal website"
 keywords = "astrophysics,photography,personal"
-info = ["Graduate Student | Astrophysics", "Glasgow | Scotland"]
+info = ["Graduate Student | Astrophysics", "University of Glasgow | Scotland"]
 avatarURL = "images/avatar.jpg"
 # gravatar = "yangtaotao0524@gmail.com"
 dateFormat = "January 02, 2006"
@@ -164,12 +164,12 @@ url = "https://www.instagram.com/_tt.yang/"
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-name = "About me"
+name = "About"
 weight = 1
 url = "about/"
 
 [[languages.en.menu.main]]
-name = "Blog"
+name = "Posts"
 weight = 2
 url = "posts/"
 
@@ -185,16 +185,16 @@ url = "contact/"
 
 [languages.zh-cn]
 languageName = ":cn:"
-title = "Yang-Taotao"
+title = "Taotao Yang"
 
 [languages.zh-cn.params]
-author = "Yang Taotao"
-info = ["Graduate Student | Astrophysics", "Glasgow | Scotland"]
-description = "Yang-Taotao's personal website"
-keywords = "astrophysics,photography,personal"
+author = "Taotao Yang"
+info = ["理学硕士研究生 | 天体物理", "格拉斯哥大学 | 苏格兰"]
+description = "Taotao Yang 的个人网站"
+keywords = "天体物理,摄影,个人"
 
 [[languages.zh-cn.menu.main]]
-name = "个人简介"
+name = "简介"
 weight = 1
 url = "about/"
 
