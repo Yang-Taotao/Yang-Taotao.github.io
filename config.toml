@@ -183,32 +183,32 @@ name = "Contact me"
 weight = 5
 url = "contact/"
 
-[languages.zh-cn]
-languageName = ":cn:"
-title = "Taotao Yang"
+# [languages.zh-cn]
+# languageName = ":cn:"
+# title = "Taotao Yang"
 
-[languages.zh-cn.params]
-author = "Taotao Yang"
-info = ["理学硕士研究生 | 天体物理", "格拉斯哥大学 | 苏格兰"]
-description = "Taotao Yang 的个人网站"
-keywords = "天体物理,摄影,个人"
+# [languages.zh-cn.params]
+# author = "Taotao Yang"
+# info = ["理学硕士研究生 | 天体物理", "格拉斯哥大学 | 苏格兰"]
+# description = "Taotao Yang 的个人网站"
+# keywords = "天体物理,摄影,个人"
 
-[[languages.zh-cn.menu.main]]
-name = "简介"
-weight = 1
-url = "about/"
+# [[languages.zh-cn.menu.main]]
+# name = "简介"
+# weight = 1
+# url = "about/"
 
-[[languages.zh-cn.menu.main]]
-name = "文章"
-weight = 2
-url = "posts/"
+# [[languages.zh-cn.menu.main]]
+# name = "文章"
+# weight = 2
+# url = "posts/"
 
-[[languages.zh-cn.menu.main]]
-name = "项目"
-weight = 3
-url = "projects/"
+# [[languages.zh-cn.menu.main]]
+# name = "项目"
+# weight = 3
+# url = "projects/"
 
-[[languages.zh-cn.menu.main]]
-name = "联系"
-weight = 5
-url = "contact/"
+# [[languages.zh-cn.menu.main]]
+# name = "联系"
+# weight = 5
+# url = "contact/"
