@@ -94,6 +94,7 @@ We set up a venv for better package control and compatibility.
 We now set GitHub up for remote repository.
 
 1. Create a GitHub repository online. Follow: <https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories>.
+1. Don't forget to choose a license for your project.
 1. We want to initialize Git to this project directory. In Linux shell, run:
 
     ```shell
@@ -113,7 +114,13 @@ We now set GitHub up for remote repository.
     ```
 
 1. We now make a sample ```README.md``` file with some messages written within.
-1. Now we add both ```.gitignore``` and ```README.md``` to staging for commit. Remember to use good commit practices.
+1. Now we add both ```.gitignore```, ```README.md```, and ```LICENSE``` to staging for commit:
+
+    ```bash
+    git add .
+    git commit -m "Initial commit."
+    ```
+
 1. Push/pull to sync up changes.
 
     ```bash
@@ -124,7 +131,7 @@ We now set GitHub up for remote repository.
 
 #### 3.1: JAX install
 
-We have two options: GPU or CPU version of JAX. Use at your own discretion. We follow: <https://jax.readthedocs.io/en/latest/installation.html>.
+We have two options: GPU or CPU version of JAX. Use at your own discretion. We follow: <https://jax.readthedocs.io/en/latest/installation.html>. Since we are working within our new virtual environment, all packages will be installed to this venv specifically.
 
 1. Let us start with getting pip up to date. In Linux shell, run:
 
@@ -135,9 +142,85 @@ We have two options: GPU or CPU version of JAX. Use at your own discretion. We f
 1. We install the GPU version of JAX for our NVIDIA GPU:
 
     ```shell
-    pip install pip install --upgrade "jax[cuda12]"
+    pip install --upgrade "jax[cuda12]"
     ```
 
 #### 3.2 Reading time
 
-Read up and continue to reference on the common gotchas of JAX in <https://jax.readthedocs.io/en/latest/notebooks/Common_Gotchas_in_JAX.html>.
+1. Read up and continue to reference on the common gotchas of JAX in <https://jax.readthedocs.io/en/latest/notebooks/Common_Gotchas_in_JAX.html>.
+1. Additionally, with good commit practices in <https://gist.github.com/luismts/495d982e8c5b1a0ced4a57cf3d93cf60>.
+
+### Step 4: Set up project folder
+
+#### 4.1 README and ignore
+
+1. Add ```.gitignore``` and ```README.md``` as we mentioned before to the project root folder.
+
+#### 4.2 Set up folder structure
+
+1. Add ```\src\JAXTest``` as your source folder for the project.
+2. Add ```\Test``` as your folder for all future unit tests and such.
+
+#### 4.3 Update requirements
+
+1. It's good practice to document the package and its version for your current project environment. In Linux shell, with your venv activated:
+
+    ```shell
+    pip freeze > requirements.txt
+    ```
+
+1. We now have a list of all the packages installed within our venv, but we only want the ones that is used:
+
+    ```shell
+    pip freeze -q -r requirements.txt | sed '/freeze/,$ d' > requirements-froze.txt
+    ```
+
+1. We can replace the original ```requirements.txt``` with ```requirements-froze.txt``` for easier documentation.
+
+    ```shell
+    mv requirements-froze.txt requirements.txt
+    ```
+
+### Step 5: Something in JAX
+
+#### 5.1 A little something
+
+1. We can write the following:
+
+    ```python
+    import jax
+    import jax.numpy as jnp
+
+    result = jnp.arange(3)
+
+    print(result)
+    ```
+
+    That was a little something in ```JAX``` that worked.
+
+1. Now let us check if GPU is the default device:
+
+    ```python
+    print(jax.default_backend())
+    print(jax..devices())
+    ```
+
+    They should give:
+
+    ```bash
+    gpu
+    [CudaDevice(id=0)]
+    ```
+
+#### 5.2 Configs
+
+1. We can tweak the settings of ```JAX``` for performance:
+
+    ```python
+    # Memory allocation
+    import os
+    os.environ['XLA_PYTHON_CLIENT_PREALLOCATE'] = 'false'
+
+    # Float64 support option
+    jax.config.update("jax_enable_x64", True)
+    ```
