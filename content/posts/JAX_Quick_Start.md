@@ -1,7 +1,7 @@
 ---
 title: "JAX Quick Start"
 date: 2024-08-21
-Editted: 2024-08-21
+Editted: 2024-08-25
 draft: false
 ---
 
@@ -181,6 +181,8 @@ We have two options: GPU or CPU version of JAX. Use at your own discretion. We f
     mv requirements-froze.txt requirements.txt
     ```
 
+1. But of course, manually adding your installed packages to ```requirements.txt``` could be a cleaner execution.
+
 ### Step 5: Something in JAX
 
 #### 5.1 A little something
@@ -202,7 +204,7 @@ We have two options: GPU or CPU version of JAX. Use at your own discretion. We f
 
     ```python
     print(jax.default_backend())
-    print(jax..devices())
+    print(jax.devices())
     ```
 
     They should give:
@@ -217,10 +219,15 @@ We have two options: GPU or CPU version of JAX. Use at your own discretion. We f
 1. We can tweak the settings of ```JAX``` for performance:
 
     ```python
-    # Memory allocation
+    # Import
     import os
+    import jax
+    # Float64 support option - set to false
+    jax.config.update("jax_enable_x64", False)
+    # Mem allocation - manual allocation set to false
     os.environ['XLA_PYTHON_CLIENT_PREALLOCATE'] = 'false'
-
-    # Float64 support option
-    jax.config.update("jax_enable_x64", True)
+    # Use persistent cache
+    jax.config.update("jax_compilation_cache_dir", "./.jaxcache")
     ```
+
+1. We should now modify ```.gitignore``` to include ```jaxcache```.
