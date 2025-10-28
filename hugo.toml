@@ -1,0 +1,91 @@
+baseURL = 'https://Yang-Taotao.github.io/'
+languageCode = 'en-us'
+title = 'Yang Taotao'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Taotao Yang's personal website."
+
+# Appearance settings
+theme = 'dark'
+colorPalette = 'OneDarkPro'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hiya!'
+homeIntroContent = """
+I'm a graduate student in Astronomy and Astrophysics at [***Leiden Observatory***](https://local.strw.leidenuniv.nl/). I am interested in using computational methods to solve complex problems methodically.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 10
+listSummaries = true
+listDateFormat = 'Jan 02, 2006'
+showListDate = true
+
+# Footer
+showFooter = true
+footerContent = "© Copyright 2025 [Taotao Yang](https://github.com/Yang-Taotao/). Powered by [Hugo](https://github.com/gohugoio/hugo) with [typo](https://github.com/tomfran/typo) theme. Last updated: October 28, 2025."
+
+# Fonts
+customCSS = ["css/fonts.css"]
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "~"
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/Yang-Taotao"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/taotaoyang/"
+
+[[params.social]]
+name = "gmail"
+url = "mailto:yangtaotao@gmail.com"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'onedark'
+
+# Giscus comments
+# [params.giscus]
+# enable = false
+# repo = "user/repo"
+# repoid = "repoId"
+# category = "General"
+# categoryid = "categoryId"
+# mapping = "pathname"
+# theme = "preferred_color_scheme"
+
+# Cache
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
