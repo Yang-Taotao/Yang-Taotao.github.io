@@ -55,7 +55,7 @@ url = "https://www.linkedin.com/in/taotaoyang/"
 
 [[params.social]]
 name = "gmail"
-url = "mailto:yangtaotao@gmail.com"
+url = "mailto:tyang@strw.leidenuniv.nl"
 
 # Main menu pages
 [[params.menu]]
@@ -69,6 +69,10 @@ url = "/posts"
 [[params.menu]]
 name = "about"
 url = "/about"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
 
 # Syntax highlight on code blocks
 [markup]

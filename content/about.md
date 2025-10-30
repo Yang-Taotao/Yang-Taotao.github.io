@@ -8,7 +8,7 @@ toc: false
 readTime: false
 autonumber: false
 math: false
-tags: ["contact"]
+tags: ["about"]
 showTags: false
 hideBackToTop: false
 ---

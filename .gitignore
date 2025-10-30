@@ -7,3 +7,6 @@ public/
 
 # log
 *.log
+
+# template
+*.template*
