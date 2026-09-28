@@ -13,7 +13,7 @@ showTags: false
 hideBackToTop: false
 ---
 
-In this guide, we will give a step-by-step process of how to properly install AMUSE on you Windows computer. We will install ```AMUSE v2025.9.0``` from a Windows machine with WSL2.
+In this guide, we will give a step-by-step process of how to properly install AMUSE on you Windows computer. We will install `AMUSE v2025.9.0` from a Windows machine with WSL2.
 
 ## Initial setup
 
@@ -137,4 +137,18 @@ It is also great to just install everything amuse has to offer with:
 
 ```bash
 > ./setup install all
+```
+
+## Managing environments
+
+What if we already have an `environment.yml` file lying around? We can update the current environment through:
+
+```bash
+> conda env update --file environment.yml --prune
+```
+
+Alternatively, we can also create the conda environment from scratch with the `environment.yml` file:
+
+```bash
+> conda env create -f environment.yml
 ```

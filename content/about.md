@@ -15,7 +15,7 @@ hideBackToTop: false
 
 I’m ```@Yang-Taotao```,a graduate student focusing on Astronomy and Astrophysics here in [***Leiden Observatory***](https://local.strw.leidenuniv.nl/) at [***Leiden University***](https://www.universiteitleiden.nl/en).
 
-Currently, I am investigating JvM correction factor for ```CLEAN``` implementation for ALMA observations.
+Currently, I am working on numerical simulations of asteroids and stellar dynamics.
 
 ### Education
 
