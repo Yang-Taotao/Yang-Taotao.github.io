@@ -12,7 +12,7 @@ description = "Taotao Yang's personal website."
 
 # Appearance settings
 theme = 'dark'
-colorPalette = 'OneDarkPro'
+colorPalette = 'Nord'
 hideHeader = false
 
 # Intro on main page, content is markdown
@@ -33,7 +33,7 @@ showListDate = true
 
 # Footer
 showFooter = true
-footerContent = "© Copyright 2025 [Taotao Yang](https://github.com/Yang-Taotao/). Powered by [Hugo](https://github.com/gohugoio/hugo) with [typo](https://github.com/tomfran/typo) theme. Last updated: October 28, 2025."
+footerContent = "© Copyright 2025 [Taotao Yang](https://github.com/Yang-Taotao/). Powered by [Hugo](https://github.com/gohugoio/hugo) with [typo](https://github.com/tomfran/typo) theme."
 
 # Fonts
 customCSS = ["css/fonts.css"]
@@ -77,7 +77,7 @@ url = "/projects"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'onedark'
+style = 'nordic'
 
 # Giscus comments
 # [params.giscus]

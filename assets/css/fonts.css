@@ -1,0 +1,6 @@
+@import url('https://iosevka-webfonts.github.io/unhinted-iosevkatermss18/IosevkaTermSS18-Unhinted.css');
+
+pre, code, kbd, samp {
+  font-family: 'Iosevka Term SS18 Web', monospace;
+  font-variant-ligatures: none;
+}

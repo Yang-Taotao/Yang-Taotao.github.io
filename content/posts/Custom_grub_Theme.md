@@ -8,14 +8,14 @@ toc: true
 readTime: true
 autonumber: true
 math: true
-tags: ["amuse", "guide"]
+tags: ["grub", "theme", "guide"]
 showTags: false
 hideBackToTop: false
 ---
 
 We list the simple steps to take in making a custom `grub` theme populated with ANSI arts. At the end, we create a custom `grub` theme as below:
 
-![lazygrub theme](../../assets/images/lazygrub_theme.png)
+![lazygrub theme](/images/lazygrub_theme.png)
 
 ## Tools
 
@@ -38,7 +38,7 @@ We therefore convert the `.ttf` font at `/usr/share/fonts/TTF/IosevkaNerdFontPro
 
 We generate the ANSI arts with the generator. An example text output shows:
 
-```txt
+```md
 ███╗   ██╗██╗ ██████╗ ██╗  ██╗████████╗███████╗ █████╗ ██╗     ██╗     
 ████╗  ██║██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝██╔══██╗██║     ██║     
 ██╔██╗ ██║██║██║  ███╗███████║   ██║   █████╗  ███████║██║     ██║     

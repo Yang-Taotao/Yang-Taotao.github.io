@@ -1,0 +1,15 @@
+:root {
+    --content-primary: #d8dee9;
+    --content-secondary: #7b88a1;
+    --background: #2e3440;
+    --code-background: #272c36;
+    --code-border: #4c566a;
+}
+
+.dark {
+    --content-primary: #d8dee9;
+    --content-secondary: #7b88a1;
+    --background: #2e3440;
+    --code-background: #272c36;
+    --code-border: #4c566a;
+}
